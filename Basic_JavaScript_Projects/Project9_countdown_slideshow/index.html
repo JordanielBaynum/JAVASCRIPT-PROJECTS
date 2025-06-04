@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 9</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!--SLIDESHOW CONTAINER-->
+    <h1>Here is my Slideshow</h1>
+    <div class="carousel">
+      <!-- Image 1-->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="CSS/images/car1.jpg" style="width: 100%" />
+        <div class="text">Black Porsche</div>
+      </div>
+      <!-- Image 2-->
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="CSS/images/car2.jpg" style="width: 100%" />
+        <div class="text">Red Ferrari</div>
+      </div>
+      <!-- Image 3-->
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="CSS/images/car3.jpg" style="width: 100%" />
+        <div class="text">Blue BMW</div>
+      </div>
+      <!-- Image 4-->
+      <div class="mySlides fade">
+        <div class="numbertext">4/ 4</div>
+        <img src="CSS/images/car4.jpg" style="width: 100%" />
+        <div class="text">Yellow Lambo</div>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <br />
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <section></section>
+    <br />
+    <br />
+    <!--ALARM CLOCK-->
+    <div class="footer">
+      <p>How many seconds would you like to set your alarm for?</p>
+      <input id=" seconds" value="" />
+      <button onclick="countdown()">Click here</button>
+      <p id="timer"></p>
+    </div>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
