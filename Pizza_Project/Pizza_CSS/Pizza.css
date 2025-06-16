@@ -1,42 +1,43 @@
-
+/*! Set the background color of the whole page to a dark blue */
 body{
     background-color: darkblue;
 }
-
+/*! Style the main heading: sans-serif font, white text, centered */
 h1{
     font-family: sans-serif;
     color:white;
     text-align: center;
 }
-
+/*! Style subheadings with a softer white color */
 h3{
     font-family: sans-serif;
     color: whitesmoke;
 }
-
+/*! Style for all <div> elements: greenish text in a typewriter-style font */
 div{
     color: yellowgreen;
     font-family: monospace;
 }
 
+/*! This is the background container for the menu, centered with some margin */
 #menuBG {
-    width: 400px;
+    width: 400px; 
     height: 470px;
     margin: 10px auto;
 }
-
+/*! Form container for menu items — wider and a bit shorter than menuBG */
 #frmMenu{
     width: 600px;
     height: 200px;
 }
-
+/*! Container for the total price display — sits to the right */
 #totalPrice{
     width: 200px;
     height: 190px;
     margin: 20px auto;
     float: right;
 }
-
+/*! Section on the left, center, and right*/
 .left{
     width:200px;
     height:200px;
@@ -54,19 +55,20 @@ div{
     height:200px;
     float:right;
 }
-
+/*! Where the selected text or order info will show — floats left */
 #showText{
     width:200px;
     height:190px;
     margin: 0px auto;
     float:left;
 }
-
+/*! Shopping cart section — centered with fixed size */
 #cart{
     top: 0;margin: 0px auto;
     width:400px;
     height:200px;
 }
+/*! Order button styling — centered and sized nicely */
 
 #btnOrder{
     margin:10px 0px 0px 100px;
